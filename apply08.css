@@ -1,0 +1,38 @@
+/* Style rule for the table element */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid #71881b; /* Set border */
+}
+
+/* Style rule for table, tr, th, and td selectors */
+table,
+tr,
+th,
+td {
+    border-collapse: collapse; /* Collapse border */
+    padding: 2%; /* Set padding */
+}
+
+/* Style rule for the caption element */
+caption {
+    font-size: 2em; /* Set font size */
+    padding: 2%; /* Set padding */
+    margin-top: 2%; /* Set top margin */
+}
+
+/* Style rule for th and td selectors */
+th,
+td {
+    border: 1px solid #7188bb; /* Set border */
+}
+
+/* Style rule for td selector */
+td {
+    text-align: center; /* Center-align text */
+}
+
+/* Style rule for tr selector */
+tr:nth-child(odd) {
+    background-color: #d3e788; /* Set background color for odd rows */
+}

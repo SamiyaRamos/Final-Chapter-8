@@ -1,0 +1,46 @@
+/* Style rules for a mobile viewport */
+/* Set bottom margin for fieldset and input elements */
+fieldset,
+input {
+    margin-bottom: 2%;
+}
+
+/* Style rule for fieldset legend */
+legend {
+    font-size: 1.25em; /* Set font size */
+    font-weight: bold; /* Make font bold */
+}
+
+/* Style rule for btn class selector */
+.btn {
+    border: none; /* Remove border */
+    margin: 0 auto; /* Set top and bottom margin to zero, and left and right margin to auto */
+    display: block; /* Set display to block */
+    padding: 5%; /* Set padding */
+    background-color: #003399; /* Set background color */
+    font-size: 1.25em; /* Set font size */
+    border-radius: 10px; /* Set border radius */
+    color: #fff; /* Set color to white */
+}
+
+/* Style rules for the tablet media query */
+@media screen and (min-width: 650px), print {
+    /* Set width, margins, and display for form element */
+    form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Set display to grid, grid template columns, and grid gap for grid class */
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+
+    /* Set grid column value and padding for btn class */
+    .btn {
+        grid-column: 1 / span 2; /* Set grid column value */
+        padding: 3%; /* Set padding */
+    }
+}

@@ -1,0 +1,47 @@
+/*
+Author:
+Date:
+File Name:
+*/
+
+/* Set body background color */
+body {
+    background-color: #ffe5dc;
+}
+
+/* Apply a sans-serif font to the page */
+body {
+    font-family: sans-serif;
+}
+
+/* Style rule for the table */
+table {
+    border: 3px solid #fd4d0c; /* Set table border */
+    box-shadow: 0 0 10px #792101; /* Apply box shadow to the table */
+}
+
+/* Style rule for table header, rows, and data cells */
+table,
+th,
+td {
+    border-collapse: collapse; /* Collapse border */
+    padding: 2%; /* Set padding */
+}
+
+/* Style rule for table caption */
+caption {
+    font-size: 2em; /* Set font size */
+    padding: 2%; /* Set padding */
+    margin-top: 2%; /* Set top margin */
+}
+
+/* Style rule for table data cells */
+td {
+    text-align: center; /* Center-align text */
+    border: 1px solid #a22c02; /* Set border color for table data cells */
+}
+
+/* Style rule for odd rows */
+tbody tr:nth-child(odd) {
+    background-color: #fe9772; /* Set background color for odd rows */
+}
